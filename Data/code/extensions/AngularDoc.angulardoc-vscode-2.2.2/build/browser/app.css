@@ -1,0 +1,339 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+    padding: 0;
+    --link-color:var(--color);
+}
+html {
+  font-size: 62.5%; /* make 1rem = 10px */
+}
+body {
+    font-size: 16px;
+}
+
+.hidden {
+    display: none !important;
+}
+.disabled {
+    cursor: not-allowed;
+}
+.btn {
+    cursor: pointer;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+.media .media-image {
+    margin: 0 1em 0 0;
+}
+.media .media-content {
+    flex: 1;
+}
+.media.right {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.media.right .media-image {
+    margin: 0 0 0 1em;
+}
+
+
+/**/
+.md-sidenav-left,.md-list-item{
+    width:50px;
+    overflow: hidden;
+}
+.md-sidenav-left{
+    border-left:0px solid #f1f1f1;
+}
+
+md-input{
+    color: var(--color); 
+    border-color: var(--background-color);
+    background-color: var(--input-bgcolor);
+}
+
+md-card {
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-tab-item span{
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-card-content {
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-list {
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-list-item.active{
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-content {
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-input-container label{
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-input-container.md-input-focused label:not(.md-no-float){
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-input-container.md-input-has-value label:not(.md-no-float){
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+md-dialog{
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+.testLabel{
+    color: var(--color); 
+    background-color: var(--background-color);
+}
+#username{
+    color: var(--color);
+    border-color: var(--color);
+    background-color: var(--input-bgcolor);
+}
+#username::focus{
+    color: var(--color);
+    border-color: var(--color);
+    background-color: var(--input-bgcolor);
+}
+#password{
+    color: var(--color);
+    border-color: var(--color);
+    background-color: var(--input-bgcolor);
+}
+#c_username{
+    color: var(--color);
+    border-color: var(--color);
+    background-color: var(--input-bgcolor);
+}
+#c_password{
+    color: var(--color);
+    border-color: var(--color);
+    background-color: var(--input-bgcolor);
+}
+#password_confirmation{
+    color: var(--color);
+    border-color: var(--color);
+    background-color: var(--input-bgcolor);
+}
+.signInButton,.progress-circular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+md-tabs.md-default-theme .md-tab, md-tabs .md-tab{
+    color: var(--color);
+    border-color: var(--color);
+    background-color: var(--input-bgcolor);
+}
+.signout,.refresh{
+    cursor: pointer;
+}
+.refresh{
+    margin-right: 10px;
+}
+.refresh > a{
+    color: var(--color);
+    outline: none;
+    border-color: var(--color);
+}
+.node {
+  font-size: 10px;
+  cursor: pointer;
+  fill-opacity: 1; 
+}
+.arrow,.routenode-icon{
+    fill: var(--link-color);
+}
+.node:hover {
+    fill: var(--link-color);
+}
+
+.node circle {
+  fill: #fff;
+  stroke: var(--link-color);
+  stroke-width: 1.5px;
+}
+
+.node:hover circle {
+  fill: orange;
+  stroke-width: 4px;
+}
+
+.node text {
+  font: 14px sans-serif;
+  fill: var(--color); 
+  opacity: 1;
+}
+
+.node:hover text {
+  font-weight: bold;
+}
+.icon-path{
+    fill: var(--color); 
+}
+path.arc {
+  cursor: move;
+  fill: var(--background-color);
+}
+
+.link {
+  fill: none;
+  stroke: var(--link-color);
+  stroke-opacity: .4;
+  pointer-events: none;
+}
+
+.highlight {
+  font-weight: bold;
+  stroke-width: 2px;
+}
+
+text.d3label {
+  font: 14px sans-serif;
+  fill: #009688;
+}
+
+text.d3label:hover {
+  font-weight: bold;
+}
+
+text.labelbox {
+  font: 12px sans-serif;
+  fill: #fff;
+}
+
+.arrow {
+  stroke-width: 2;
+  stroke:#000;
+  stroke-dasharray: 5, 5;
+}
+
+#arrow {
+  stroke-width: 1;
+  stroke-dasharray: 0;	
+}
+
+.link.source, .link.target {
+    stroke-opacity: 1;
+    stroke-width: 2px;
+}
+
+.node.target {
+    fill: #d62728 !important;
+}
+
+.link.source {
+    stroke: #d62728;
+}
+
+.node.source {
+    fill: #2ca02c;
+}
+
+.link.target {
+    stroke: #2ca02c;
+}
+text.icon {
+  font-family: "Material Icons";
+  font-size: 16px;
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: #337ab7;
+  color: #fff;
+  border-radius: 5px;
+}
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 24px;
+  width: 100%;
+  line-height: 1;
+  color: #337ab7;
+  content: "\25C4";
+  position: relative;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 45%;
+  left: -54%;
+}
+svg text {
+   font-family: FontAwesome;
+}
+.md-tab{
+    text-transform: capitalize;
+}
+md-tab-content{
+    transition:none;
+}
+.classify_md_content h3{
+    margin-left:16px;
+}
+.classify_md_content .classe-list{
+    list-style: none;
+    overflow: hidden;
+}
+.classify_md_content .classe-list .classe-item{
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    margin: 0;
+    line-height: 14px;
+    padding: 8px 8px 8px 0;
+    float: left;
+    width: 25%;
+    min-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.classify_md_content .classe-list .classe-item a,.classify_md_content .classe-list .classe-item span{
+    cursor: pointer;
+    outline: none;
+}
+rect.module {
+stroke: #7f7f7f;
+}
+
+rect.declaration {
+stroke: #1f77b4;
+fill: #aec7e8;
+}
+
+polygon.export {
+stroke: #8c564b;
+fill: #c49c94;
+}
+
+polygon.import {
+stroke: #ff7f0e;
+fill: #ffbb78;
+}
+
+    
