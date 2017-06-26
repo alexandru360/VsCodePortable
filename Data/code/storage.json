@@ -422,13 +422,22 @@
     "windowsState": {
         "openedFolders": [],
         "lastActiveWindow": {
+            "workspacePath": "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
             "uiState": {
-                "mode": 1,
-                "x": 118,
-                "y": 27,
-                "width": 1609,
-                "height": 946
+                "mode": 0,
+                "x": 55,
+                "y": -8,
+                "width": 1873,
+                "height": 1216
             }
         }
+    },
+    "pickerWorkingDir": "C:\\2_Work\\Romania\\java.cbe2\\web.angular",
+    "openedPathsList": {
+        "files": [],
+        "folders": [
+            "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
+            "C:\\2_Work\\Romania\\java.cbe2\\web.angular"
+        ]
     }
 }
