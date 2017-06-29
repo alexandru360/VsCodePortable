@@ -432,10 +432,12 @@
             }
         }
     },
-    "pickerWorkingDir": "C:\\2_Work\\Romania\\java.cbe2\\web.angular",
+    "pickerWorkingDir": "C:\\2_Work",
     "openedPathsList": {
         "files": [],
         "folders": [
+            "C:\\2_Work\\MyTests",
+            "C:\\2_Work\\MyTests",
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular"
         ]
