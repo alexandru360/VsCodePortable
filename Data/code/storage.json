@@ -425,18 +425,20 @@
             "workspacePath": "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
             "uiState": {
                 "mode": 0,
-                "x": 55,
+                "x": -8,
                 "y": -8,
-                "width": 1873,
-                "height": 1216
+                "width": 1936,
+                "height": 1186
             }
         }
     },
-    "pickerWorkingDir": "C:\\2_Work",
+    "pickerWorkingDir": "C:\\2_Work\\Romania\\java.cbe2\\web.angular",
     "openedPathsList": {
         "files": [],
         "folders": [
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
+            "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB.NEW",
+            "C:\\2_Work\\Romania\\java.cbe2\\java\\cbe2-exemple\\spring-rest",
             "C:\\2_Work\\MyTests",
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular"
         ]

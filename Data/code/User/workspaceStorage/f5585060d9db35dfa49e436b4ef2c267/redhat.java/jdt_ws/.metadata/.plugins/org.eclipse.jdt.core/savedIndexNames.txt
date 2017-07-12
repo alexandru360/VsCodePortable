@@ -1,0 +1,1 @@
+INDEX VERSION 1.130+C:\1_Tools\1_Portable\VsCodePortable\Data\code\User\workspaceStorage\f5585060d9db35dfa49e436b4ef2c267\redhat.java\jdt_ws\.metadata\.plugins\org.eclipse.jdt.core

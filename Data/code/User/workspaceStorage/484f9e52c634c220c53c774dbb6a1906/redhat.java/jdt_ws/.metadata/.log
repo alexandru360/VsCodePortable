@@ -1,0 +1,276 @@
+!SESSION 2017-06-29 16:18:33.747 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\1_Tools\VsCodePortable\Data\code\User\workspaceStorage\484f9e52c634c220c53c774dbb6a1906\redhat.java\jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:41.815
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:42.100
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:42.110
+!MESSAGE Initializing Java Language Server 0.1.0.201706151944
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:42.145
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:42.225
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:51.434
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:52.600
+!MESSAGE >>New configuration: {java={configuration={maven={userSettings=null}, updateBuildConfiguration=interactive}, errors={incompleteClasspath={severity=warning}}, home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, referencesCodeLens={enabled=true}, trace={server=off}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:52.638
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:18:52.744
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.251
+!MESSAGE begin problem for ResourcesReaderUtils.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.262
+!MESSAGE end reporting for ResourcesReaderUtils.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.281
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.307
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.325
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.342
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.351
+!MESSAGE DocumentLifeCycleHandler.handleClosed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.412
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.482
+!MESSAGE begin problem for Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.509
+!MESSAGE end reporting for Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.533
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.625
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.654
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.671
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.705
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.770
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.796
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.838
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:22.847
+!MESSAGE >> workspace/didChangeWatchedFiles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:23.187
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:19:23.195
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:24.774
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:24.898
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:25.118
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:25.142
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:31.721
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:41.548
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:43.588
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:44.015
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:46.247
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:49.450
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:49.653
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:49.662
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:50.817
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:51.060
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:51.435
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:52.109
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:52.356
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:20:52.992
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:21:41.860
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:21:41.866
+!MESSAGE >>New configuration: {java={configuration={maven={userSettings=null}, updateBuildConfiguration=interactive}, errors={incompleteClasspath={severity=warning}}, home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, referencesCodeLens={enabled=true}, trace={server=off}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:22:37.269
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:22:37.502
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:22:37.517
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:22:38.028
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:22:38.038
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:16.091
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:16.155
+!MESSAGE begin problem for ResourcesReaderUtils.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:16.160
+!MESSAGE end reporting for ResourcesReaderUtils.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:16.171
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:16.429
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:16.985
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:16.992
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:21.518
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:21.809
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:22.027
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:38.585
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:39.041
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:39.815
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:40.164
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:24:40.335
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:25:38.872
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:25:39.239
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:25:39.776
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:25:43.614
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:25:44.391
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:25:44.403
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:25:52.609
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-29 16:25:52.613
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-30 09:44:09.557
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-06-30 09:44:09.605
+!MESSAGE >> exit
+!SESSION 2017-07-03 12:58:49.705 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\1_Tools\1_Portable\VsCodePortable\Data\code\User\workspaceStorage\484f9e52c634c220c53c774dbb6a1906\redhat.java\jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-03 12:58:59.208
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-07-03 12:59:00.135
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-07-03 12:59:00.329
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-07-03 12:59:00.348
+!MESSAGE Initializing Java Language Server 0.1.0.201706151944
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-07-03 12:59:00.427
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-07-03 12:59:05.145
+!MESSAGE >>New configuration: {java={configuration={maven={userSettings=null}, updateBuildConfiguration=interactive}, errors={incompleteClasspath={severity=warning}}, home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, referencesCodeLens={enabled=true}, trace={server=off}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-07-03 12:59:05.159
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2017-07-03 12:59:05.456
+!MESSAGE Importing Maven project(s)
