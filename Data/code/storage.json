@@ -423,23 +423,25 @@
         "openedFolders": [],
         "lastActiveWindow": {
             "workspacePath": "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
-            "uiState": {
-                "mode": 0,
-                "x": -8,
-                "y": -8,
-                "width": 1936,
-                "height": 1186
-            }
+            "uiState": {}
         }
     },
-    "pickerWorkingDir": "C:\\2_Work\\Romania\\java.cbe2\\web.angular",
+    "pickerWorkingDir": "C:\\2_Work\\Romania",
     "openedPathsList": {
-        "files": [],
+        "files": [
+            "C:\\2_Work\\MyTests\\SpringBootSample\\src\\main\\java\\com\\spring\\sample\\controllers\\TestController.java"
+        ],
         "folders": [
+            "C:\\2_Work\\Romania\\ng-cbn-login",
+            "C:\\2_Work\\Romania\\ng-cbn-login",
+            "C:\\2_Work\\Romania\\ng-cbn-toolbar",
+            "C:\\2_Work\\Romania\\ng-cbn-core",
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
+            "C:\\2_Work\\MyTests\\TourOfHeroes",
+            "C:\\2_Work\\MyTests",
+            "C:\\2_Work\\MyTests\\ng2-opd-popup-sample",
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB.NEW",
             "C:\\2_Work\\Romania\\java.cbe2\\java\\cbe2-exemple\\spring-rest",
-            "C:\\2_Work\\MyTests",
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular"
         ]
     }

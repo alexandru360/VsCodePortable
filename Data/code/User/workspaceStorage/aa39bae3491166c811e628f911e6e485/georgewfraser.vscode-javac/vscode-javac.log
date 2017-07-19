@@ -1,0 +1,633 @@
+2017-07-14	17:33:51	INFO	org.javacs.Main connectToNode	Connecting to 55282
+2017-07-14	17:33:51	INFO	org.javacs.Main connectToNode	Connected to parent using socket on port 55282
+2017-07-14	17:33:51	INFO	org.javacs.Main run	Connection closed
+2017-07-14	17:33:51	WARNING	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint getArguments	Unexpected params 'java.lang.Void@397eeeb7' for 'public default void org.eclipse.lsp4j.services.LanguageServer.initialized()' is ignored
+2017-07-14	17:33:51	WARNING	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify	Unsupported notification method: $/setTraceNotification
+2017-07-14	17:33:51	INFO	org.javacs.JavaLanguageServer doLintAndIndex	Lint file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java
+2017-07-14	17:33:52	INFO	org.javacs.FindConfig generateEffectivePom	Emit effective pom for c:\2_Work\MyTests\SpringBootSample\pom.xml to C:\Users\abadita\AppData\Local\Temp\VSCodePortableTemp\effective-pom4141722317779110786.xml
+2017-07-14	17:33:59	INFO	org.javacs.FindConfig buildClassPath	Emit classpath to C:\Users\abadita\AppData\Local\Temp\VSCodePortableTemp\classpath6876204189755422306.txt
+2017-07-14	17:34:09	INFO	org.javacs.FindConfig buildClassPath	Read C:\Users\abadita\.m2\repository\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.3.RELEASE\spring-boot-starter-test-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-jdbc\4.3.8.RELEASE\spring-jdbc-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.14\tomcat-juli-8.5.14.jar C:\Users\abadita\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.14\tomcat-embed-websocket-8.5.14.jar C:\Users\abadita\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.3.RELEASE\spring-boot-starter-tomcat-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-test\4.3.8.RELEASE\spring-test-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.14\tomcat-jdbc-8.5.14.jar C:\Users\abadita\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.14\tomcat-embed-el-8.5.14.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\1.5.3.RELEASE\spring-boot-starter-data-jpa-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-aop\1.5.3.RELEASE\spring-boot-starter-aop-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.3.RELEASE\spring-boot-test-autoconfigure-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar C:\Users\abadita\.m2\repository\org\springframework\data\spring-data-commons\1.13.3.RELEASE\spring-data-commons-1.13.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar C:\Users\abadita\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.3.RELEASE\spring-boot-starter-logging-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar C:\Users\abadita\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar C:\Users\abadita\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar C:\Users\abadita\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.3.RELEASE\spring-boot-starter-jdbc-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar C:\Users\abadita\.m2\repository\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar C:\Users\abadita\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar C:\Users\abadita\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.3.RELEASE\spring-boot-starter-web-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot\1.5.3.RELEASE\spring-boot-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.3.RELEASE\spring-boot-autoconfigure-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar C:\Users\abadita\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-test\1.5.3.RELEASE\spring-boot-test-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.14\tomcat-embed-core-8.5.14.jar C:\Users\abadita\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar C:\Users\abadita\.m2\repository\org\springframework\data\spring-data-jpa\1.11.3.RELEASE\spring-data-jpa-1.11.3.RELEASE.jar C:\Users\abadita\.m2\repository\junit\junit\4.12\junit-4.12.jar C:\Users\abadita\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar C:\Users\abadita\.m2\repository\org\springframework\spring-webmvc\4.3.8.RELEASE\spring-webmvc-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-aspects\4.3.8.RELEASE\spring-aspects-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-orm\4.3.8.RELEASE\spring-orm-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\h2database\h2\1.4.194\h2-1.4.194.jar C:\Users\abadita\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar C:\Users\abadita\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-core\5.0.12.Final\hibernate-core-5.0.12.Final.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar C:\Users\abadita\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar C:\Users\abadita\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-entitymanager\5.0.12.Final\hibernate-entitymanager-5.0.12.Final.jar C:\Users\abadita\.m2\repository\org\springframework\spring-web\4.3.8.RELEASE\spring-web-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar C:\Users\abadita\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar C:\Users\abadita\.m2\repository\org\springframework\spring-tx\4.3.8.RELEASE\spring-tx-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.3.RELEASE\spring-boot-starter-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar from C:\Users\abadita\AppData\Local\Temp\VSCodePortableTemp\classpath6876204189755422306.txt
+2017-07-14	17:34:10	INFO	org.javacs.FindConfig onlySourceDirectories	Use source directory from pom.xml c:\2_Work\MyTests\SpringBootSample\src\main\java
+2017-07-14	17:34:10	INFO	org.javacs.FindConfig readPomXml	Inferred from c:\2_Work\MyTests\SpringBootSample\pom.xml:
+2017-07-14	17:34:10	INFO	org.javacs.FindConfig readPomXml		sourcePath: c:\2_Work\MyTests\SpringBootSample\src\main\java
+2017-07-14	17:34:10	INFO	org.javacs.FindConfig readPomXml		classPath: C:\Users\abadita\.m2\repository\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.3.RELEASE\spring-boot-starter-test-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-jdbc\4.3.8.RELEASE\spring-jdbc-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.14\tomcat-juli-8.5.14.jar C:\Users\abadita\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.14\tomcat-embed-websocket-8.5.14.jar C:\Users\abadita\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.3.RELEASE\spring-boot-starter-tomcat-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-test\4.3.8.RELEASE\spring-test-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.14\tomcat-jdbc-8.5.14.jar C:\Users\abadita\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.14\tomcat-embed-el-8.5.14.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\1.5.3.RELEASE\spring-boot-starter-data-jpa-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-aop\1.5.3.RELEASE\spring-boot-starter-aop-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.3.RELEASE\spring-boot-test-autoconfigure-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar C:\Users\abadita\.m2\repository\org\springframework\data\spring-data-commons\1.13.3.RELEASE\spring-data-commons-1.13.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar C:\Users\abadita\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.3.RELEASE\spring-boot-starter-logging-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar C:\Users\abadita\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar C:\Users\abadita\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar C:\Users\abadita\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.3.RELEASE\spring-boot-starter-jdbc-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar C:\Users\abadita\.m2\repository\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar C:\Users\abadita\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar C:\Users\abadita\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.3.RELEASE\spring-boot-starter-web-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot\1.5.3.RELEASE\spring-boot-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.3.RELEASE\spring-boot-autoconfigure-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar C:\Users\abadita\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-test\1.5.3.RELEASE\spring-boot-test-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.14\tomcat-embed-core-8.5.14.jar C:\Users\abadita\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar C:\Users\abadita\.m2\repository\org\springframework\data\spring-data-jpa\1.11.3.RELEASE\spring-data-jpa-1.11.3.RELEASE.jar C:\Users\abadita\.m2\repository\junit\junit\4.12\junit-4.12.jar C:\Users\abadita\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar C:\Users\abadita\.m2\repository\org\springframework\spring-webmvc\4.3.8.RELEASE\spring-webmvc-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-aspects\4.3.8.RELEASE\spring-aspects-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-orm\4.3.8.RELEASE\spring-orm-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\h2database\h2\1.4.194\h2-1.4.194.jar C:\Users\abadita\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar C:\Users\abadita\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-core\5.0.12.Final\hibernate-core-5.0.12.Final.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar C:\Users\abadita\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar C:\Users\abadita\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-entitymanager\5.0.12.Final\hibernate-entitymanager-5.0.12.Final.jar C:\Users\abadita\.m2\repository\org\springframework\spring-web\4.3.8.RELEASE\spring-web-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar C:\Users\abadita\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar C:\Users\abadita\.m2\repository\org\springframework\spring-tx\4.3.8.RELEASE\spring-tx-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.3.RELEASE\spring-boot-starter-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar
+2017-07-14	17:34:10	INFO	org.javacs.FindConfig buildClassPath	Emit docPath to C:\Users\abadita\AppData\Local\Temp\VSCodePortableTemp\sourcepath1523156770190353945.txt
+2017-07-14	17:34:10	INFO	org.javacs.FindConfig readPomXml		docPath: (pending)
+2017-07-14	17:34:10	INFO	org.javacs.FindConfig readPomXml		outputDirectory: c:\2_Work\MyTests\TourOfHeroes\target\classes
+2017-07-14	17:34:10	INFO	org.javacs.FindConfig generateEffectivePom	Emit effective pom for c:\2_Work\MyTests\SpringBootSample\pom.xml to C:\Users\abadita\AppData\Local\Temp\VSCodePortableTemp\effective-pom1710097223328238033.xml
+2017-07-14	17:34:20	INFO	org.javacs.FindConfig buildClassPath	Emit classpath to C:\Users\abadita\AppData\Local\Temp\VSCodePortableTemp\classpath372016011782311652.txt
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig buildClassPath	Read C:\Users\abadita\.m2\repository\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.3.RELEASE\spring-boot-starter-test-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-jdbc\4.3.8.RELEASE\spring-jdbc-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.14\tomcat-juli-8.5.14.jar C:\Users\abadita\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.14\tomcat-embed-websocket-8.5.14.jar C:\Users\abadita\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.3.RELEASE\spring-boot-starter-tomcat-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-test\4.3.8.RELEASE\spring-test-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.14\tomcat-jdbc-8.5.14.jar C:\Users\abadita\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.14\tomcat-embed-el-8.5.14.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\1.5.3.RELEASE\spring-boot-starter-data-jpa-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-aop\1.5.3.RELEASE\spring-boot-starter-aop-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.3.RELEASE\spring-boot-test-autoconfigure-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar C:\Users\abadita\.m2\repository\org\springframework\data\spring-data-commons\1.13.3.RELEASE\spring-data-commons-1.13.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar C:\Users\abadita\.m2\repository\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar C:\Users\abadita\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.3.RELEASE\spring-boot-starter-logging-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar C:\Users\abadita\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar C:\Users\abadita\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar C:\Users\abadita\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.3.RELEASE\spring-boot-starter-jdbc-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar C:\Users\abadita\.m2\repository\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar C:\Users\abadita\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar C:\Users\abadita\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.3.RELEASE\spring-boot-starter-web-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot\1.5.3.RELEASE\spring-boot-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.3.RELEASE\spring-boot-autoconfigure-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar C:\Users\abadita\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-test\1.5.3.RELEASE\spring-boot-test-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.14\tomcat-embed-core-8.5.14.jar C:\Users\abadita\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar C:\Users\abadita\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar C:\Users\abadita\.m2\repository\org\springframework\data\spring-data-jpa\1.11.3.RELEASE\spring-data-jpa-1.11.3.RELEASE.jar C:\Users\abadita\.m2\repository\junit\junit\4.12\junit-4.12.jar C:\Users\abadita\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar C:\Users\abadita\.m2\repository\org\springframework\spring-webmvc\4.3.8.RELEASE\spring-webmvc-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-aspects\4.3.8.RELEASE\spring-aspects-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-orm\4.3.8.RELEASE\spring-orm-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\h2database\h2\1.4.194\h2-1.4.194.jar C:\Users\abadita\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar C:\Users\abadita\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-core\5.0.12.Final\hibernate-core-5.0.12.Final.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar C:\Users\abadita\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar C:\Users\abadita\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-entitymanager\5.0.12.Final\hibernate-entitymanager-5.0.12.Final.jar C:\Users\abadita\.m2\repository\org\springframework\spring-web\4.3.8.RELEASE\spring-web-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar C:\Users\abadita\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar C:\Users\abadita\.m2\repository\org\springframework\spring-tx\4.3.8.RELEASE\spring-tx-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.3.RELEASE\spring-boot-starter-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar from C:\Users\abadita\AppData\Local\Temp\VSCodePortableTemp\classpath372016011782311652.txt
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig onlySourceDirectories	Use source directory from pom.xml c:\2_Work\MyTests\SpringBootSample\src\test\java
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig onlySourceDirectories	Use source directory from pom.xml c:\2_Work\MyTests\SpringBootSample\src\main\java
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig readPomXml	Inferred from c:\2_Work\MyTests\SpringBootSample\pom.xml:
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig readPomXml		sourcePath: c:\2_Work\MyTests\SpringBootSample\src\test\java c:\2_Work\MyTests\SpringBootSample\src\main\java
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig readPomXml		classPath: C:\Users\abadita\.m2\repository\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.3.RELEASE\spring-boot-starter-test-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-jdbc\4.3.8.RELEASE\spring-jdbc-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.14\tomcat-juli-8.5.14.jar C:\Users\abadita\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.14\tomcat-embed-websocket-8.5.14.jar C:\Users\abadita\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.3.RELEASE\spring-boot-starter-tomcat-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-test\4.3.8.RELEASE\spring-test-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.14\tomcat-jdbc-8.5.14.jar C:\Users\abadita\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.14\tomcat-embed-el-8.5.14.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\1.5.3.RELEASE\spring-boot-starter-data-jpa-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-aop\1.5.3.RELEASE\spring-boot-starter-aop-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.3.RELEASE\spring-boot-test-autoconfigure-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar C:\Users\abadita\.m2\repository\org\springframework\data\spring-data-commons\1.13.3.RELEASE\spring-data-commons-1.13.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar C:\Users\abadita\.m2\repository\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar C:\Users\abadita\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.3.RELEASE\spring-boot-starter-logging-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar C:\Users\abadita\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar C:\Users\abadita\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar C:\Users\abadita\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.3.RELEASE\spring-boot-starter-jdbc-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar C:\Users\abadita\.m2\repository\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar C:\Users\abadita\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar C:\Users\abadita\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.3.RELEASE\spring-boot-starter-web-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot\1.5.3.RELEASE\spring-boot-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.3.RELEASE\spring-boot-autoconfigure-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar C:\Users\abadita\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-test\1.5.3.RELEASE\spring-boot-test-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.14\tomcat-embed-core-8.5.14.jar C:\Users\abadita\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar C:\Users\abadita\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar C:\Users\abadita\.m2\repository\org\springframework\data\spring-data-jpa\1.11.3.RELEASE\spring-data-jpa-1.11.3.RELEASE.jar C:\Users\abadita\.m2\repository\junit\junit\4.12\junit-4.12.jar C:\Users\abadita\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar C:\Users\abadita\.m2\repository\org\springframework\spring-webmvc\4.3.8.RELEASE\spring-webmvc-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-aspects\4.3.8.RELEASE\spring-aspects-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\spring-orm\4.3.8.RELEASE\spring-orm-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\h2database\h2\1.4.194\h2-1.4.194.jar C:\Users\abadita\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar C:\Users\abadita\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-core\5.0.12.Final\hibernate-core-5.0.12.Final.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar C:\Users\abadita\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar C:\Users\abadita\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar C:\Users\abadita\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar C:\Users\abadita\.m2\repository\org\hibernate\hibernate-entitymanager\5.0.12.Final\hibernate-entitymanager-5.0.12.Final.jar C:\Users\abadita\.m2\repository\org\springframework\spring-web\4.3.8.RELEASE\spring-web-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar C:\Users\abadita\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar C:\Users\abadita\.m2\repository\org\springframework\spring-tx\4.3.8.RELEASE\spring-tx-4.3.8.RELEASE.jar C:\Users\abadita\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.3.RELEASE\spring-boot-starter-1.5.3.RELEASE.jar C:\Users\abadita\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig readPomXml		docPath: (pending)
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig buildClassPath	Emit docPath to C:\Users\abadita\AppData\Local\Temp\VSCodePortableTemp\sourcepath7196485454952125282.txt
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig readPomXml		outputDirectory: c:\2_Work\MyTests\TourOfHeroes\target\test-classes
+2017-07-14	17:34:30	INFO	org.javacs.FindConfig doFindConfig	Found c:\2_Work\MyTests\SpringBootSample/javaconfig.json for c:\2_Work\MyTests\SpringBootSample\src\main\java\com\spring\sample\controllers
+2017-07-14	17:34:30	INFO	org.javacs.SymbolIndex index	Index 8 sources in c:\2_Work\MyTests\SpringBootSample\src\main\java
+2017-07-14	17:34:33	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:33	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:33	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:33	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:34	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTagSupport
+2017-07-14	17:34:34	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:34	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:34	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:35	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/Event
+2017-07-14	17:34:35	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:35	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTag
+2017-07-14	17:34:35	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTag
+2017-07-14	17:34:35	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:36	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:36	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:36	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:37	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:37	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:37	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:37	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:37	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/BaseURL
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTagSupport
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:38	INFO	org.javacs.JavaLanguageServer$1 codeAction	codeAction at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 18:1
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTagSupport
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/jms/MessageListener
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/jms/MessageListener
+2017-07-14	17:34:38	WARNING	org.javacs.IncrementalFileManager hasUpToDateClassFile	Hiding file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java in favor of file:/c:/2_Work/MyTests/TourOfHeroes/target/classes/com/spring/sample/controllers/TestController.class
+2017-07-14	17:34:38	WARNING	org.javacs.IncrementalFileManager hasUpToDateClassFile	Hiding file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/Main.java in favor of file:/c:/2_Work/MyTests/TourOfHeroes/target/classes/com/spring/sample/Main.class
+2017-07-14	17:34:38	WARNING	org.javacs.IncrementalFileManager hasUpToDateClassFile	Hiding file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/DTO/DateDispozitiveConstatare.java in favor of file:/c:/2_Work/MyTests/TourOfHeroes/target/classes/com/spring/sample/DTO/DateDispozitiveConstatare.class
+2017-07-14	17:34:38	WARNING	org.javacs.IncrementalFileManager hasUpToDateClassFile	Hiding file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/DTO/FaptaDetectie.java in favor of file:/c:/2_Work/MyTests/TourOfHeroes/target/classes/com/spring/sample/DTO/FaptaDetectie.class
+2017-07-14	17:34:38	WARNING	org.javacs.IncrementalFileManager hasUpToDateClassFile	Hiding file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/DTO/IdentificareImposibila.java in favor of file:/c:/2_Work/MyTests/TourOfHeroes/target/classes/com/spring/sample/DTO/IdentificareImposibila.class
+2017-07-14	17:34:38	WARNING	org.javacs.IncrementalFileManager hasUpToDateClassFile	Hiding file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/DTO/InformatiiDetectie.java in favor of file:/c:/2_Work/MyTests/TourOfHeroes/target/classes/com/spring/sample/DTO/InformatiiDetectie.class
+2017-07-14	17:34:38	WARNING	org.javacs.IncrementalFileManager hasUpToDateClassFile	Hiding file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/DTO/PhotoList.java in favor of file:/c:/2_Work/MyTests/TourOfHeroes/target/classes/com/spring/sample/DTO/PhotoList.class
+2017-07-14	17:34:38	WARNING	org.javacs.IncrementalFileManager hasUpToDateClassFile	Hiding file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/DTO/ValidareDateDetectie.java in favor of file:/c:/2_Work/MyTests/TourOfHeroes/target/classes/com/spring/sample/DTO/ValidareDateDetectie.class
+2017-07-14	17:34:38	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	13 ms	1 files
+2017-07-14	17:34:38	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	333 ms	1 files
+2017-07-14	17:34:38	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	163 ms	1 files
+2017-07-14	17:34:38	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:87)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:49)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at org.javacs.CodeActions.codeActionsFor(CodeActions.java:50)
+	at org.javacs.CodeActions.findCodeActionsForDiagnostic(CodeActions.java:46)
+	at org.javacs.CodeActions.lambda$find$0(CodeActions.java:41)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:267)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.javacs.CodeActions.find(CodeActions.java:42)
+	at org.javacs.JavaLanguageServer$1.lambda$codeAction$11(JavaLanguageServer.java:252)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavaLanguageServer$1.codeAction(JavaLanguageServer.java:252)
+	... 16 more
+
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/Event
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	com/bea/jvm/ClassPreProcessor
+2017-07-14	17:34:38	INFO	org.javacs.JavaLanguageServer$1 definition	definition at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 22:49
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTag
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTag
+2017-07-14	17:34:38	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:39	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:39	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	11 ms	1 files
+2017-07-14	17:34:39	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	401 ms	1 files
+2017-07-14	17:34:39	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	120 ms	1 files
+2017-07-14	17:34:39	INFO	org.javacs.SymbolIndex lambda$updateOpenFiles$5	Update index for 1 source files
+2017-07-14	17:34:39	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:39	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:39	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:40	INFO	org.javacs.JavaLanguageServer$1 codeAction	codeAction at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 18:1
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/BaseURL
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTagSupport
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/jms/MessageListener
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/jms/MessageListener
+2017-07-14	17:34:40	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	1 ms	1 files
+2017-07-14	17:34:40	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	88 ms	1 files
+2017-07-14	17:34:40	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	24 ms	1 files
+2017-07-14	17:34:40	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:87)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:49)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at org.javacs.CodeActions.codeActionsFor(CodeActions.java:50)
+	at org.javacs.CodeActions.findCodeActionsForDiagnostic(CodeActions.java:46)
+	at org.javacs.CodeActions.lambda$find$0(CodeActions.java:41)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:267)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.javacs.CodeActions.find(CodeActions.java:42)
+	at org.javacs.JavaLanguageServer$1.lambda$codeAction$11(JavaLanguageServer.java:252)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavaLanguageServer$1.codeAction(JavaLanguageServer.java:252)
+	... 16 more
+
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	com/bea/jvm/ClassPreProcessor
+2017-07-14	17:34:40	INFO	org.javacs.JavaLanguageServer$1 hover	hover at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 18:15
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/JspWriter
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTag
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:40	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:40	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	0 ms	1 files
+2017-07-14	17:34:40	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	144 ms	1 files
+2017-07-14	17:34:40	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	135 ms	1 files
+2017-07-14	17:34:40	WARNING	org.javacs.Javadocs doIndex	No source file for org.springframework.web.bind.annotation.CrossOrigin
+2017-07-14	17:34:40	WARNING	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation	Unmatched cancel notification for request id 5
+2017-07-14	17:34:40	INFO	org.javacs.JavaLanguageServer$1 hover	hover at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 18:11
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/JspWriter
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTag
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:41	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	1 ms	1 files
+2017-07-14	17:34:41	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	161 ms	1 files
+2017-07-14	17:34:41	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	48 ms	1 files
+2017-07-14	17:34:41	WARNING	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation	Unmatched cancel notification for request id 6
+2017-07-14	17:34:41	INFO	org.javacs.JavaLanguageServer$1 hover	hover at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 19:23
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/logging/log4j/core/pattern/LogEventPatternConverter
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/Record
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/Work
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletURL
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/logging/log4j/core/pattern/LogEventPatternConverter
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/Record
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/Work
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletURL
+2017-07-14	17:34:41	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	2 ms	1 files
+2017-07-14	17:34:41	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	208 ms	1 files
+2017-07-14	17:34:41	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	216 ms	1 files
+2017-07-14	17:34:41	INFO	org.javacs.Javadocs doIndex	Found file:/c:/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java for com.spring.sample.controllers.TestController
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:41	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:41	INFO	org.javacs.Javadocs onDiagnostic	Loading source file c:\2_Work\MyTests\SpringBootSample\src\main\java\com\spring\sample\controllers\TestController.java...
+2017-07-14	17:34:41	INFO	org.javacs.Javadocs onDiagnostic	Constructing Javadoc information...
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	package com.spring.sample.DTO does not exist
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	package org.springframework.web.bind.annotation does not exist
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	com/sun/msv/datatype/SerializationContext
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	com/sun/msv/datatype/SerializationContext
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	package org.springframework.http does not exist
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	package org.springframework.http does not exist
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	cannot find symbol
+  symbol: class RestController
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	cannot find symbol
+  symbol: class RequestMapping
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	cannot find symbol
+  symbol: class CrossOrigin
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	cannot find symbol
+  symbol:   class RequestMapping
+  location: class com.spring.sample.controllers.TestController
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	cannot find symbol
+  symbol:   variable RequestMethod
+  location: class com.spring.sample.controllers.TestController
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	cannot find symbol
+  symbol:   class PathVariable
+  location: class com.spring.sample.controllers.TestController
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	cannot find symbol
+  symbol:   class RequestMapping
+  location: class com.spring.sample.controllers.TestController
+2017-07-14	17:34:42	SEVERE	org.javacs.Javadocs onDiagnostic	cannot find symbol
+  symbol:   variable RequestMethod
+  location: class com.spring.sample.controllers.TestController
+2017-07-14	17:34:42	INFO	org.javacs.Javadocs onDiagnostic	12 warnings
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyContent
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyContent
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/PageContext
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ResourceURL
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/PageContext
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ResourceURL
+2017-07-14	17:34:42	WARNING	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation	Unmatched cancel notification for request id 7
+2017-07-14	17:34:42	INFO	org.javacs.JavaLanguageServer$1 hover	hover at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 19:22
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:42	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	1 ms	1 files
+2017-07-14	17:34:42	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	133 ms	1 files
+2017-07-14	17:34:42	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	52 ms	1 files
+2017-07-14	17:34:42	WARNING	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation	Unmatched cancel notification for request id 9
+2017-07-14	17:34:42	INFO	org.javacs.JavaLanguageServer$1 hover	hover at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 17:47
+2017-07-14	17:34:42	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	1 ms	1 files
+2017-07-14	17:34:42	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	53 ms	1 files
+2017-07-14	17:34:42	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	60 ms	1 files
+2017-07-14	17:34:42	WARNING	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation	Unmatched cancel notification for request id 10
+2017-07-14	17:34:42	INFO	org.javacs.JavaLanguageServer$1 hover	hover at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 17:48
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	org/gjt/xpp/XmlStartTag
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	org/gjt/xpp/XmlStartTag
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/taskdefs/MatchingTask
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/taskdefs/MatchingTask
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/taskdefs/MatchingTask
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/taskdefs/MatchingTask
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/CacheControl
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/EventRequest
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/MimeResponse
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/CacheControl
+2017-07-14	17:34:42	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/EventRequest
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/MimeResponse
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	5 ms	1 files
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	192 ms	1 files
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	37 ms	1 files
+2017-07-14	17:34:43	WARNING	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation	Unmatched cancel notification for request id 11
+2017-07-14	17:34:43	INFO	org.javacs.JavaLanguageServer$1 hover	hover at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 17:48
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	6 ms	1 files
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	88 ms	1 files
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	20 ms	1 files
+2017-07-14	17:34:43	WARNING	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation	Unmatched cancel notification for request id 12
+2017-07-14	17:34:43	INFO	org.javacs.JavaLanguageServer$1 codeAction	codeAction at file:///c%3A/2_Work/MyTests/SpringBootSample/src/main/java/com/spring/sample/controllers/TestController.java 17:48
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	com/sun/msv/datatype/SerializationContext
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	com/sun/msv/datatype/SerializationContext
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	org/osgi/framework/BundleActivator
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	org/osgi/framework/BundleActivator
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	org/jooq/Transaction
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	org/jooq/Transaction
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	org/eclipse/jetty/util/component/AbstractLifeCycle
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	org/eclipse/jetty/util/component/AbstractLifeCycle
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/cache/jcache/interceptor/JCacheAspectSupport
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/cache/jcache/interceptor/JCacheAspectSupport
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/enterprise/inject/spi/Bean
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/enterprise/inject/spi/Bean
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/enterprise/inject/spi/Bean
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/enterprise/inject/spi/Bean
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ActionRequest
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	PARSE	1 ms	1 files
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/EventResponse
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ENTER	192 ms	1 files
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortalContext
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletConfig
+2017-07-14	17:34:43	INFO	org.javacs.JavacHolder lambda$compileFocused$1	ANALYZE	92 ms	1 files
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/RenderRequest
+2017-07-14	17:34:43	SEVERE	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint lambda$static$0	Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:51)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:87)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:203)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:139)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:149)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:77)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:68)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:49)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at org.javacs.CodeActions.codeActionsFor(CodeActions.java:50)
+	at org.javacs.CodeActions.findCodeActionsForDiagnostic(CodeActions.java:46)
+	at org.javacs.CodeActions.lambda$find$0(CodeActions.java:41)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:267)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1374)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.javacs.CodeActions.find(CodeActions.java:42)
+	at org.javacs.JavaLanguageServer$1.lambda$codeAction$11(JavaLanguageServer.java:252)
+	at java.util.Optional.map(Optional.java:215)
+	at org.javacs.JavaLanguageServer$1.codeAction(JavaLanguageServer.java:252)
+	... 16 more
+
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ActionRequest
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/EventResponse
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortalContext
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletConfig
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/RenderRequest
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/mail/Authenticator
+2017-07-14	17:34:43	WARNING	org.javacs.ClassPathIndex tryLoad	javax/mail/Authenticator
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/jaxen/VariableContext
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/jaxen/VariableContext
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	io/undertow/server/handlers/resource/ResourceManager
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	com/gargoylesoftware/htmlunit/WebClient
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	com/querydsl/core/types/dsl/EntityPathBase
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ActionResponse
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	io/undertow/server/handlers/resource/ResourceManager
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletContext
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletRequest
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	com/gargoylesoftware/htmlunit/WebClient
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletSession
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/RenderResponse
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	com/querydsl/core/types/dsl/EntityPathBase
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ActionResponse
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletContext
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/ui/velocity/VelocityEngineFactory
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletRequest
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletSession
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/RenderResponse
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/ui/velocity/VelocityEngineFactory
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/taskdefs/MatchingTask
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/taskdefs/MatchingTask
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletResponse
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ResourceRequest
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletResponse
+2017-07-14	17:34:44	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ResourceRequest
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/batch/core/configuration/annotation/BatchConfigurer
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/batch/core/configuration/annotation/BatchConfigurer
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	com/querydsl/core/types/dsl/EntityPathBase
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	com/querydsl/core/types/dsl/EntityPathBase
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ResourceResponse
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ResourceResponse
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/context/CurrentSessionContext
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/context/CurrentSessionContext
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	com/gargoylesoftware/htmlunit/WebConnection
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	com/gargoylesoftware/htmlunit/WebConnection
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/ui/freemarker/FreeMarkerConfigurationFactory
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/ui/freemarker/FreeMarkerConfigurationFactory
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/locale/impl/DefaultLocaleResolver
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/locale/impl/DefaultLocaleResolver
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/locale/impl/DefaultLocaleResolver
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/locale/impl/DefaultLocaleResolver
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/osgi/service/jdbc/DataSourceFactory
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/osgi/service/jdbc/DataSourceFactory
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/mockito/asm/signature/SignatureVisitor
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/mockito/asm/signature/SignatureVisitor
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/mockito/asm/signature/SignatureVisitor
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/mockito/asm/signature/SignatureVisitor
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/oauth2/provider/token/ResourceServerTokenServices
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/oauth2/provider/token/ResourceServerTokenServices
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	bitronix/tm/resource/jdbc/PoolingDataSource
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	bitronix/tm/resource/jdbc/PoolingDataSource
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/WorkManager
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/WorkManager
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ClientDataRequest
+2017-07-14	17:34:45	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/ClientDataRequest
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	io/undertow/servlet/api/SessionPersistenceManager
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	io/undertow/servlet/api/SessionPersistenceManager
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	com/atomikos/jdbc/AtomikosDataSourceBean
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	com/atomikos/jdbc/AtomikosDataSourceBean
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/enterprise/inject/spi/Extension
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/enterprise/inject/spi/Extension
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/BootstrapContext
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/BootstrapContext
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletPreferences
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletPreferences
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/StateAwareResponse
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/StateAwareResponse
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/text/markup/TemplateConfiguration
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/text/markup/TemplateConfiguration
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	org/jaxen/NamespaceContext
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	org/jaxen/NamespaceContext
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/commons/pool/PoolableObjectFactory
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/commons/pool/PoolableObjectFactory
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	org/jooq/impl/DefaultExecuteListener
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	org/jooq/impl/DefaultExecuteListener
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/hateoas/ResourceAssembler
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/ConnectionFactory
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/WorkManager
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/el/ExpressionEvaluator
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/hateoas/ResourceAssembler
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/ConnectionFactory
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/WorkManager
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/el/ExpressionEvaluator
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	com/gargoylesoftware/htmlunit/WebConnection
+2017-07-14	17:34:46	WARNING	org.javacs.ClassPathIndex tryLoad	com/gargoylesoftware/htmlunit/WebConnection
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tools/ant/Task
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/commons/pool2/PooledObjectFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/commons/pool2/PooledObjectFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	io/undertow/server/handlers/resource/ResourceManager
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	io/undertow/server/handlers/resource/ResourceManager
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/transaction/TransactionFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/transaction/TransactionFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/jooq/TransactionProvider
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/jooq/TransactionProvider
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/oauth2/provider/token/ResourceServerTokenServices
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/oauth2/provider/token/ResourceServerTokenServices
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/eclipse/jetty/server/handler/ErrorHandler
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/eclipse/jetty/server/handler/ErrorHandler
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/RecordFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/RecordFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/factory/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/factory/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObjectSupport
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObjectSupport
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/activemq/artemis/spi/core/naming/BindingRegistry
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/activemq/artemis/spi/core/naming/BindingRegistry
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/eclipse/jetty/webapp/WebAppContext
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/eclipse/jetty/webapp/WebAppContext
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/cache/jcache/config/AbstractJCacheConfiguration
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/cache/jcache/config/AbstractJCacheConfiguration
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/web/portlet/multipart/MultipartActionRequest
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/web/portlet/multipart/MultipartActionRequest
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTag
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/BodyTag
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObjectSupport
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObjectSupport
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/social/config/annotation/SocialConfigurerAdapter
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/social/config/annotation/SocialConfigurerAdapter
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/ConnectionFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/ConnectionFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/openqa/selenium/htmlunit/HtmlUnitDriver
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/openqa/selenium/htmlunit/HtmlUnitDriver
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/faces/application/NavigationHandler
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/faces/application/NavigationHandler
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/factory/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/factory/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	com/samskivert/mustache/DefaultCollector
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	com/samskivert/mustache/DefaultCollector
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	bitronix/tm/resource/jms/PoolingConnectionFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	bitronix/tm/resource/jms/PoolingConnectionFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/ResourceAdapter
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/ResourceAdapter
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/WorkManager
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/WorkManager
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletRequestDispatcher
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletRequestDispatcher
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/data/couchbase/config/CouchbaseConfigurer
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/data/couchbase/config/CouchbaseConfigurer
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	com/atomikos/jms/AtomikosConnectionFactoryBean
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	com/atomikos/jms/AtomikosConnectionFactoryBean
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	liquibase/logging/core/AbstractLogger
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	liquibase/logging/core/AbstractLogger
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/enterprise/inject/spi/Extension
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/enterprise/inject/spi/Extension
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/endpoint/MessageEndpointFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/endpoint/MessageEndpointFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletContext
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	javax/portlet/PortletContext
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/transaction/TransactionManagerLookup
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/transaction/TransactionManagerLookup
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/factory/PreparerFactory
+2017-07-14	17:34:47	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/preparer/factory/PreparerFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	com/samskivert/mustache/Mustache$TemplateLoader
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	com/samskivert/mustache/Mustache$TemplateLoader
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	liquibase/servicelocator/DefaultPackageScanClassResolver
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	liquibase/servicelocator/DefaultPackageScanClassResolver
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/logging/log4j/core/config/ConfigurationFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/logging/log4j/core/config/ConfigurationFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/endpoint/MessageEndpointFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/endpoint/MessageEndpointFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/web/AuthenticationEntryPoint
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/web/AuthenticationEntryPoint
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/yaml/snakeyaml/constructor/Constructor
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/yaml/snakeyaml/constructor/Constructor
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	groovy/lang/GroovyObject
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/TryCatchFinally
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/servlet/jsp/tagext/DynamicAttributes
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/WorkManager
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/spi/work/WorkManager
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/event/def/DefaultMergeEventListener
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/event/def/DefaultMergeEventListener
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/testng/IHookable
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/faces/application/NavigationHandler
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/testng/IHookable
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/faces/application/NavigationHandler
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/connection/ConnectionProvider
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/connection/ConnectionProvider
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/data/rest/webmvc/config/RepositoryRestConfigurerAdapter
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/data/rest/webmvc/config/RepositoryRestConfigurerAdapter
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	com/arjuna/ats/jta/recovery/XAResourceRecoveryHelper
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	com/arjuna/ats/jta/recovery/XAResourceRecoveryHelper
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/faces/event/PhaseListener
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/faces/event/PhaseListener
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/logging/log4j/core/pattern/ThrowablePatternConverter
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/logging/log4j/core/pattern/ThrowablePatternConverter
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/data/couchbase/config/AbstractCouchbaseDataConfiguration
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/data/couchbase/config/AbstractCouchbaseDataConfiguration
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/openqa/selenium/htmlunit/HtmlUnitDriver
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/openqa/selenium/htmlunit/HtmlUnitDriver
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/connection/ConnectionProvider
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/connection/ConnectionProvider
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerConfigurerAdapter
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerConfigurerAdapter
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/eclipse/jetty/webapp/AbstractConfiguration
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/eclipse/jetty/webapp/AbstractConfiguration
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/ConnectionFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/ConnectionFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/ConnectionFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	javax/resource/cci/ConnectionFactory
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/hateoas/mvc/UriComponentsContributor
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/hateoas/mvc/UriComponentsContributor
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/integration/config/IntegrationComponentScanRegistrar
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/integration/config/IntegrationComponentScanRegistrar
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/logging/log4j/core/pattern/ThrowablePatternConverter
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/logging/log4j/core/pattern/ThrowablePatternConverter
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/hateoas/ResourceAssembler
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/hateoas/ResourceAssembler
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/hateoas/mvc/UriComponentsContributor
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/springframework/hateoas/mvc/UriComponentsContributor
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/connection/ConnectionProvider
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/hibernate/connection/ConnectionProvider
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/servlet/context/ServletTilesApplicationContext
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/servlet/context/ServletTilesApplicationContext
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/request/servlet/ServletApplicationContext
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/apache/tiles/request/servlet/ServletApplicationContext
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/testng/IHookable
+2017-07-14	17:34:48	WARNING	org.javacs.ClassPathIndex tryLoad	org/testng/IHookable
