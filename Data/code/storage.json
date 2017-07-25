@@ -423,21 +423,39 @@
         "openedFolders": [],
         "lastActiveWindow": {
             "workspacePath": "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
-            "uiState": {}
+            "uiState": {
+                "mode": 0,
+                "x": -8,
+                "y": -8,
+                "width": 1936,
+                "height": 1186
+            }
         }
     },
-    "pickerWorkingDir": "C:\\2_Work\\Romania",
+    "pickerWorkingDir": "C:\\2_Work\\Romania\\java.cbe2\\web.angular",
     "openedPathsList": {
         "files": [
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp40458\\etc\\httpd\\conf\\httpd.conf",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp42753\\etc\\httpd\\conf\\magic",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp41525\\etc\\httpd\\conf.d\\autoindex.conf",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp41396\\etc\\httpd\\conf.modules.d\\00-base.conf",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp41751\\etc\\httpd\\conf.modules.d\\00-proxy.conf",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp19344\\var\\www\\html\\assets\\config\\app.config.json",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp09685\\home\\cbe2\\nohup.out",
+            "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB\\dist\\assets\\config\\app.config.json",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp48499\\etc\\sudoers",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp45403\\var\\www\\html\\assets\\Scripts\\app.config.ts",
             "C:\\2_Work\\MyTests\\SpringBootSample\\src\\main\\java\\com\\spring\\sample\\controllers\\TestController.java"
         ],
         "folders": [
-            "C:\\2_Work\\Romania\\ng-cbn-login",
+            "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
+            "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
+            "C:\\2_Work\\MyTests\\js.angular2.cbnie.research\\AngularConfigFile",
+            "C:\\2_Work\\MyTests\\AngularConfigFile",
+            "C:\\2_Work\\MyTests\\TourOfHeroes",
             "C:\\2_Work\\Romania\\ng-cbn-login",
             "C:\\2_Work\\Romania\\ng-cbn-toolbar",
             "C:\\2_Work\\Romania\\ng-cbn-core",
-            "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
-            "C:\\2_Work\\MyTests\\TourOfHeroes",
             "C:\\2_Work\\MyTests",
             "C:\\2_Work\\MyTests\\ng2-opd-popup-sample",
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB.NEW",
