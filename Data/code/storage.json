@@ -57,7 +57,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+W",
+            "label": "Ctrl+Shift+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -422,7 +422,7 @@
     "windowsState": {
         "openedFolders": [],
         "lastActiveWindow": {
-            "workspacePath": "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
+            "workspacePath": "C:\\2_Work\\Romania\\ng.cbe2.plate-detection",
             "uiState": {
                 "mode": 0,
                 "x": -8,
@@ -432,9 +432,27 @@
             }
         }
     },
-    "pickerWorkingDir": "C:\\2_Work\\Romania\\java.cbe2\\web.angular",
+    "pickerWorkingDir": "C:\\2_Work\\Romania\\vr-online",
     "openedPathsList": {
         "files": [
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp43617\\var\\www\\html\\cbe2-html\\index.html",
+            "C:\\2_Work\\Romania\\vr-online\\ng.cbe2.plate-detection\\dist\\vendor.78d993eea640ba4d0f3b.bundle.js",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp11950\\var\\www\\html\\cbe2-html\\index.html",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp21843\\opt\\cbe2\\dev\\plate-nb-identification\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp18756\\opt\\cbe2\\test\\plate-nb-identification\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp08340\\opt\\cbe2\\dev\\detection-file-batch-processor-0.0.1-SNAPSHOT\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp07208\\opt\\cbe2\\test\\detection-file-batch-processor-0.0.1-SNAPSHOT\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp38027\\home\\cbe2\\logs\\general-file-output.log",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp58022\\home\\cbe2\\nohup.out",
+            "C:\\2_Work\\Romania\\vr-online\\ng.cbe2.plate-detection\\dist\\index.html",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp34084\\var\\www\\html\\cbe2-html\\index.html",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp11417\\var\\www\\html\\cbe2-html\\index.html",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp09200\\var\\www\\html\\cbe2-html\\assets\\config\\app.config.json",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp17697\\var\\www\\html\\cbe2-html\\favicon.ico",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp07444\\var\\www\\html\\cbe2-html\\.htaccess",
+            "C:\\2_Work\\Romania\\ng.cbe2.plate-detection\\dist\\index.html",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp03377\\var\\www\\html\\.htaccess",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp54374\\var\\www\\html\\assets\\config\\app.config.json",
             "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp40458\\etc\\httpd\\conf\\httpd.conf",
             "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp42753\\etc\\httpd\\conf\\magic",
             "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp41525\\etc\\httpd\\conf.d\\autoindex.conf",
@@ -448,7 +466,7 @@
             "C:\\2_Work\\MyTests\\SpringBootSample\\src\\main\\java\\com\\spring\\sample\\controllers\\TestController.java"
         ],
         "folders": [
-            "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
+            "C:\\2_Work\\Romania\\vr-online\\ng.cbe2.plate-detection",
             "C:\\2_Work\\Romania\\java.cbe2\\web.angular\\CBE2-WEB",
             "C:\\2_Work\\MyTests\\js.angular2.cbnie.research\\AngularConfigFile",
             "C:\\2_Work\\MyTests\\AngularConfigFile",
