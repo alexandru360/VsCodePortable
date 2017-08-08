@@ -1,0 +1,49 @@
+{
+	"name": "css-minify",
+	"displayName": "CSS Minify",
+	"description": "Clean css minify that doesn't hurt",
+	"version": "0.0.4",
+	"publisher": "DiegoMolina",
+	"repository": {
+		"url": "https://github.com/DracotMolver/CSS-minify"
+	},
+	"icon": "images/css-minify.jpg",
+	"bugs": {
+		"url": "https://github.com/DracotMolver/CSS-minify",
+		"email": "dracotm25@gmail.com"
+	},
+	"engines": {
+		"vscode": "^1.11.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.minify"
+	],
+	"main": "./extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.minify",
+				"title": "CSS minify"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^8.0.3",
+		"eslint": "^3.6.0",
+		"mocha": "^3.4.1",
+		"typescript": "^2.0.3",
+		"vscode": "^1.0.0"
+	},
+	"__metadata": {
+		"id": "c06c54a1-b341-432a-8f19-fad4cb68f4bb",
+		"publisherId": "eec2d877-1d46-44d1-a051-9de67e9b18ab",
+		"publisherDisplayName": "DiegoMolina"
+	}
+}
