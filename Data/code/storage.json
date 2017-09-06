@@ -423,18 +423,34 @@
         "openedFolders": [],
         "lastActiveWindow": {
             "workspacePath": "C:\\2_Work\\Romania\\vr-online\\ng.cbe2.plate-detection",
-            "uiState": {
-                "mode": 0,
-                "x": -8,
-                "y": -8,
-                "width": 1936,
-                "height": 1186
-            }
+            "uiState": {}
         }
     },
     "pickerWorkingDir": "C:\\2_Work\\Romania\\vr-online",
     "openedPathsList": {
         "files": [
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp47506\\var\\www\\html\\cbe2-html\\test\\assets\\config\\app.config.json",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp56117\\var\\www\\html\\cbe2-html\\dev\\assets\\config\\app.config.json",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp58704\\var\\www\\html\\cbe2-html\\test\\assets\\config\\app.config.json",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp54391\\opt\\cbe2\\dev\\plate-nb-identification\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp15478\\opt\\cbe2\\test\\plate-nb-identification\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp22482\\opt\\cbe2\\test\\plate-nb-identification\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp03852\\var\\www\\html\\cbe2-html\\dev\\assets\\config\\app.config.json",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp55839\\opt\\cbe2\\test\\plate-nb-identification\\application.properties",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp06395\\opt\\cbe2\\dev\\plate-nb-identification\\application.properties",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp43940\\opt\\cbe2\\test\\plate-nb-identification\\application.properties",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp29243\\var\\www\\html\\cbe2-html\\test\\index.html",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp16691\\var\\www\\html\\cbe2-archive\\ng-cbe2-plate-detection-web-1.0.9.zip",
+            "C:\\Users\\abadita\\Documents\\Default.rdp",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp51772\\var\\www\\html\\cbe2-html\\index.html",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp11035\\opt\\cbe2\\dev\\plate-nb-identification\\application.properties",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp11415\\opt\\cbe2\\dev\\plate-nb-identification\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp09314\\opt\\cbe2\\test\\plate-nb-identification\\application.properties",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp59263\\opt\\cbe2\\test\\plate-nb-identification\\startup.sh",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp47716\\opt\\cbe2\\test\\plate-nb-identification\\application.properties",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp50295\\opt\\cbe2\\dev\\plate-nb-identification\\application.properties",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp50004\\opt\\cbe2\\test\\plate-nb-identification\\application.properties",
+            "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp49194\\opt\\cbe2\\dev\\plate-nb-identification\\application.properties",
             "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp03923\\opt\\cbe2\\test\\plate-nb-identification\\startup.sh",
             "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp05641\\opt\\cbe2\\test\\plate-nb-identification\\startup.sh",
             "C:\\Users\\abadita\\AppData\\Local\\Temp\\scp07599\\opt\\cbe2\\dev\\plate-nb-identification\\startup.sh",
@@ -511,7 +527,6 @@
             "C:\\2_Work\\MyTests\\SpringBootSample\\src\\main\\java\\com\\spring\\sample\\controllers\\TestController.java"
         ],
         "folders": [
-            "C:\\2_Work\\Romania\\vr-online\\ng.cbe2.plate-detection",
             "C:\\2_Work\\Romania\\vr-online\\ng.cbe2.plate-detection",
             "C:\\2_Work\\Romania\\vr-online\\ng.cbe2.plate-detection",
             "C:\\2_Work\\MyTests\\highlightSelectedRow",
